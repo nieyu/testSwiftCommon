@@ -1,10 +1,9 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "NYSwiftCommon"
+  spec.name         = "testSwiftCommon"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of NYSwiftCommon."
-  spec.description  = <<-DESC
-                   DESC
+  spec.summary      = "a summary testbb"
+  spec.description  = "a test pod description"
   spec.homepage     = "https://github.com/nieyu/testSwiftCommon.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "yu nie" => "nieyuchina@gmail.com" }
