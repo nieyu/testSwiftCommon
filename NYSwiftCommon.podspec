@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NYSwiftCommon"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "A short description of NYSwiftCommon."
   spec.description  = <<-DESC
                    DESC
@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/nieyu/testSwiftCommon.git", :tag => "#{spec.version}" }  
   spec.source_files = 'testSwiftCommon/*'
   spec.requires_arc = true
-  spec.s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+  spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
 end
