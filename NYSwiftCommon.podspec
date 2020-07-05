@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "yu nie" => "nieyuchina@gmail.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/nieyu/testSwiftCommon.git", :tag => "#{spec.version}" }  
-  spec.source_files = 'testSwiftCommon/*'
+  spec.source_files = 'testSwiftCommon/printABC.swift'
   spec.requires_arc = true
   spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
